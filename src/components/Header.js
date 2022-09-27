@@ -8,7 +8,7 @@ const Header = () => {
                 <img src={logo} alt="" />
                 <div className="nav-link">
                     <input type="checkbox" id="checkbox_toggle" />
-                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
                     <div className="menu">
                         <a href="/home">Home</a>
                         <a href="/register">Register</a>
